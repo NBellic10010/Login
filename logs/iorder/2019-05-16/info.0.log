@@ -1,0 +1,4 @@
+[INFO ] 2019-05-16 18:32:13 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-05-16 18:33:06 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-05-16 18:37:27 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-05-16 19:15:04 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

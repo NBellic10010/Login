@@ -1,0 +1,76 @@
+[DEBUG] 2019-05-25 21:39:19 [http-bio-8080-exec-7] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2134524f]
+[DEBUG] 2019-05-25 21:39:19 [http-bio-8080-exec-7] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:39:19 [http-bio-8080-exec-7] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:39:19 [http-bio-8080-exec-7] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 21:39:19 [http-bio-8080-exec-7] com.me.Controller.UserController - com.me.models.User@146579bf
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-26] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a77937d]
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-26] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-26] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-26] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-26] com.me.Controller.UserController - com.me.models.User@1f90e7b2
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-24] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a77937d]
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-24] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-24] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-24] com.me.Controller.UserController - com.me.models.User@525bcb2b
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a77937d]
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] com.me.Controller.UserController - com.me.models.User@1be237c
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a77937d]
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-25] com.me.Controller.UserController - com.me.models.User@6191dc33
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-23] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a77937d]
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-23] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-23] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:43:02 [qtp1532756055-23] com.me.Controller.UserController - com.me.models.User@4576f1fe
+[DEBUG] 2019-05-25 21:46:10 [qtp1428022141-24] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@506d8f9b]
+[DEBUG] 2019-05-25 21:46:10 [qtp1428022141-24] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:46:10 [qtp1428022141-24] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:46:10 [qtp1428022141-24] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 21:46:10 [qtp1428022141-24] com.me.Controller.UserController - com.me.models.User@52675131
+[DEBUG] 2019-05-25 21:46:38 [http-bio-8080-exec-4] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7932b410]
+[DEBUG] 2019-05-25 21:46:38 [http-bio-8080-exec-4] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 21:46:38 [http-bio-8080-exec-4] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 21:46:38 [http-bio-8080-exec-4] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 21:46:38 [http-bio-8080-exec-4] com.me.Controller.UserController - com.me.models.User@230f1fb7
+[DEBUG] 2019-05-25 22:00:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@52f594d6]
+[DEBUG] 2019-05-25 22:00:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:00:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:00:44 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:00:44 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@2e0921f2
+[DEBUG] 2019-05-25 22:01:35 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1caa31aa]
+[DEBUG] 2019-05-25 22:01:35 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:01:35 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:01:35 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:01:35 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@68c04701
+[DEBUG] 2019-05-25 22:02:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@444584da]
+[DEBUG] 2019-05-25 22:02:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:02:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:02:16 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:02:16 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@3a969597
+[DEBUG] 2019-05-25 22:03:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2d653f1c]
+[DEBUG] 2019-05-25 22:03:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:03:16 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:03:16 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:03:16 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@72cde9fd
+[DEBUG] 2019-05-25 22:04:02 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@144d858b]
+[DEBUG] 2019-05-25 22:04:02 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:04:02 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:04:02 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:04:02 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@69a88873
+[DEBUG] 2019-05-25 22:04:33 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3410a1cb]
+[DEBUG] 2019-05-25 22:04:33 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:04:33 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:04:33 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:04:33 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@623ff6de
+[DEBUG] 2019-05-25 22:05:46 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4c5a34cd]
+[DEBUG] 2019-05-25 22:05:46 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:05:46 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:05:46 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:05:46 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@470c6870
+[DEBUG] 2019-05-25 22:09:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@48f8034e]
+[DEBUG] 2019-05-25 22:09:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-25 22:09:44 [http-bio-8080-exec-1] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-25 22:09:44 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-25 22:09:44 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User@543f6d69

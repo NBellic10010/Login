@@ -1,0 +1,11 @@
+[INFO ] 2019-06-10 18:12:03 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 18:21:44 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 18:24:27 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 18:50:36 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 18:55:04 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:04:34 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:19:14 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:20:49 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:24:39 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:24:58 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 2019-06-10 19:32:46 [localhost-startStop-1] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

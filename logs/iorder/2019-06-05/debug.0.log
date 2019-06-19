@@ -1,0 +1,4 @@
+[DEBUG] 2019-06-05 17:06:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5142a03e]
+[DEBUG] 2019-06-05 17:06:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ==>  Preparing: select * from student where user_name = ? AND student_password = ? 
+[DEBUG] 2019-06-05 17:06:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ==> Parameters: one(String), 123456(String)
+[DEBUG] 2019-06-05 17:06:42 [http-bio-8080-exec-2] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} exit cache

@@ -1,0 +1,14 @@
+[DEBUG] 2019-05-28 10:44:17 [http-bio-8080-exec-3] c.me.dao.UserDao.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1fe26e6]
+[DEBUG] 2019-05-28 10:44:17 [http-bio-8080-exec-3] c.me.dao.UserDao.selectByPrimaryKey - ==>  Preparing: select id, name, email, cdate from users where id = ? 
+[DEBUG] 2019-05-28 10:44:17 [http-bio-8080-exec-3] c.me.dao.UserDao.selectByPrimaryKey - ==> Parameters: 10001(Integer)
+[DEBUG] 2019-05-28 10:44:17 [http-bio-8080-exec-3] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-28 10:44:17 [http-bio-8080-exec-3] com.me.Controller.UserController - com.me.models.User@b33bd88
+[DEBUG] 2019-05-28 14:18:37 [http-bio-8080-exec-1] c.m.d.U.selectByPrimaryKey - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3a1c862f]
+[DEBUG] 2019-05-28 14:18:37 [http-bio-8080-exec-1] c.m.d.U.selectByPrimaryKey - ==>  Preparing: select id, name, age, company from user where id = ? 
+[DEBUG] 2019-05-28 14:18:37 [http-bio-8080-exec-1] c.m.d.U.selectByPrimaryKey - ==> Parameters: 1(Integer)
+[DEBUG] 2019-05-28 14:18:37 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-05-28 14:18:37 [http-bio-8080-exec-1] com.me.Controller.UserController - com.me.models.User_1@66007d8b
+[DEBUG] 2019-05-28 21:51:17 [http-bio-8080-exec-3] c.m.dao.User_1Mapper.insertSelective - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@69f63f9a]
+[DEBUG] 2019-05-28 21:51:17 [http-bio-8080-exec-3] c.m.dao.User_1Mapper.insertSelective - ==>  Preparing: insert into user ( id, name, age, company ) values ( ?, ?, ?, ? ) 
+[DEBUG] 2019-05-28 21:51:17 [http-bio-8080-exec-3] c.m.dao.User_1Mapper.insertSelective - ==> Parameters: 10(Integer), xxx(String), 20(String), abc(String)
+[DEBUG] 2019-05-28 21:51:17 [http-bio-8080-exec-3] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache

@@ -1,0 +1,7 @@
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@496fbf14]
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ==>  Preparing: select * from student where user_name = ? AND student_password = ? 
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-2] c.m.d.User_1Mapper.selectByNameandPw - ==> Parameters: null, null
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-2] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-3] c.m.d.User_1Mapper.selectByNameandPw - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@496fbf14]
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-3] c.m.d.User_1Mapper.selectByNameandPw - ==>  Preparing: select * from student where user_name = ? AND student_password = ? 
+[DEBUG] 2019-06-04 16:43:42 [http-bio-8080-exec-3] c.m.d.User_1Mapper.selectByNameandPw - ==> Parameters: one(String), 123456(String)

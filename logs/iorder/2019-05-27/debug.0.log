@@ -1,0 +1,4 @@
+[DEBUG] 2019-05-27 20:04:46 [http-bio-8080-exec-1] com.me.dao.UserDao.insertSelective - ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@30c4d077]
+[DEBUG] 2019-05-27 20:04:46 [http-bio-8080-exec-1] com.me.dao.UserDao.insertSelective - ==>  Preparing: insert into users ( id, name, email, cdate ) values ( ?, ?, ?, ? ) 
+[DEBUG] 2019-05-27 20:04:46 [http-bio-8080-exec-1] com.me.dao.UserDao.insertSelective - ==> Parameters: 10006(Integer), Ann(String), 123@yahoo.com(String), 2019-05-27 20:05:53.12(Timestamp)
+[DEBUG] 2019-05-27 20:04:46 [http-bio-8080-exec-1] c.a.druid.pool.PreparedStatementPool - {conn-10010, pstmt-20000} enter cache

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.me.dao.User_1Mapper">
+  <resultMap id="BaseResultMap" type="com.me.models.User_1">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="flag" jdbcType="CHAR" property="flag" />
+    <result column="user_no" jdbcType="VARCHAR" property="userNo" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="student_no" jdbcType="VARCHAR" property="studentNo" />
+    <result column="student_password" jdbcType="VARCHAR" property="studentPassword" />
+    <result column="school" jdbcType="VARCHAR" property="school" />
+    <result column="gender" jdbcType="CHAR" property="gender" />
+    <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+    <result column="signature" jdbcType="VARCHAR" property="signature" />
+    <result column="key" jdbcType="VARCHAR" property="key" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="wechat_no" jdbcType="VARCHAR" property="wechatNo" />
+    <result column="qq_no" jdbcType="VARCHAR" property="qqNo" />
+    <result column="portrait" jdbcType="VARCHAR" property="portrait" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, flag, user_no, user_name, student_no, student_password, school, gender, nick_name,
+    signature, key, phone, wechat_no, qq_no, portrait
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectByNameandPw" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select * from student where user_name = #{0} AND student_password = #{1}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from student
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.me.models.User_1">
+    insert into student (id, flag, user_no,
+      user_name, student_no, student_password,
+      school, gender, nick_name,
+      signature, key, phone,
+      wechat_no, qq_no, portrait
+      )
+    values (#{id,jdbcType=INTEGER}, #{flag,jdbcType=CHAR}, #{userNo,jdbcType=VARCHAR},
+      #{userName,jdbcType=VARCHAR}, #{studentNo,jdbcType=VARCHAR}, #{studentPassword,jdbcType=VARCHAR},
+      #{school,jdbcType=VARCHAR}, #{gender,jdbcType=CHAR}, #{nickName,jdbcType=VARCHAR},
+      #{signature,jdbcType=VARCHAR}, #{key,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
+      #{wechatNo,jdbcType=VARCHAR}, #{qqNo,jdbcType=VARCHAR}, #{portrait,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.me.models.User_1">
+    insert into student
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="flag != null">
+        flag,
+      </if>
+      <if test="userNo != null">
+        user_no,
+      </if>
+      <if test="userName != null">
+        user_name,
+      </if>
+      <if test="studentNo != null">
+        student_no,
+      </if>
+      <if test="studentPassword != null">
+        student_password,
+      </if>
+      <if test="school != null">
+        school,
+      </if>
+      <if test="gender != null">
+        gender,
+      </if>
+      <if test="nickName != null">
+        nick_name,
+      </if>
+      <if test="signature != null">
+        signature,
+      </if>
+      <if test="key != null">
+        key,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="wechatNo != null">
+        wechat_no,
+      </if>
+      <if test="qqNo != null">
+        qq_no,
+      </if>
+      <if test="portrait != null">
+        portrait,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="flag != null">
+        #{flag,jdbcType=CHAR},
+      </if>
+      <if test="userNo != null">
+        #{userNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNo != null">
+        #{studentNo,jdbcType=VARCHAR},
+      </if>
+      <if test="studentPassword != null">
+        #{studentPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="school != null">
+        #{school,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        #{gender,jdbcType=CHAR},
+      </if>
+      <if test="nickName != null">
+        #{nickName,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="key != null">
+        #{key,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechatNo != null">
+        #{wechatNo,jdbcType=VARCHAR},
+      </if>
+      <if test="qqNo != null">
+        #{qqNo,jdbcType=VARCHAR},
+      </if>
+      <if test="portrait != null">
+        #{portrait,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.me.models.User_1">
+    update student
+    <set>
+      <if test="flag != null">
+        flag = #{flag,jdbcType=CHAR},
+      </if>
+      <if test="userNo != null">
+        user_no = #{userNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="studentNo != null">
+        student_no = #{studentNo,jdbcType=VARCHAR},
+      </if>
+      <if test="studentPassword != null">
+        student_password = #{studentPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="school != null">
+        school = #{school,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null">
+        gender = #{gender,jdbcType=CHAR},
+      </if>
+      <if test="nickName != null">
+        nick_name = #{nickName,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="key != null">
+        key = #{key,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="wechatNo != null">
+        wechat_no = #{wechatNo,jdbcType=VARCHAR},
+      </if>
+      <if test="qqNo != null">
+        qq_no = #{qqNo,jdbcType=VARCHAR},
+      </if>
+      <if test="portrait != null">
+        portrait = #{portrait,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.me.models.User_1">
+    update student
+    set flag = #{flag,jdbcType=CHAR},
+      user_no = #{userNo,jdbcType=VARCHAR},
+      user_name = #{userName,jdbcType=VARCHAR},
+      student_no = #{studentNo,jdbcType=VARCHAR},
+      student_password = #{studentPassword,jdbcType=VARCHAR},
+      school = #{school,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=CHAR},
+      nick_name = #{nickName,jdbcType=VARCHAR},
+      signature = #{signature,jdbcType=VARCHAR},
+      key = #{key,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      wechat_no = #{wechatNo,jdbcType=VARCHAR},
+      qq_no = #{qqNo,jdbcType=VARCHAR},
+      portrait = #{portrait,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
